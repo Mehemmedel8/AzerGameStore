@@ -1,33 +1,60 @@
-# Gradle files
-.gradle/
-build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
-
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Oyun Satış Sitesi</title>
+</head>
+<body>
+    <header>
+        <h1>Hoş Geldiniz</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Anasayfa</a></li>
+            <li><a href="#">Oyunlar</a></li>
+            <li><a href="#">Hakkımızda</a></li>
+            <li><a href="#">İletişim</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Oyunlar</h2>
+        <div class="oyun">
+            <img src="free_fire_elmas.jpg" alt="Free Fire Elmas">
+            <h3>Free Fire Elmas</h3>
+            <p>Free Fire 100 Elmas - Fiyat: 1.95 AZN</p>
+            <p>Free Fire 210 Elmas - Fiyat: 3.68 AZN</p>
+            <p>Free Fire 530 Elmas - Fiyat: 9.21 AZN</p>
+            <p>Free Fire 1080 Elmas - Fiyat: 17.94 AZN</p>
+            <p>Free Fire 2200 Elmas - Fiyat: 35.86 AZN</p>
+            <button>Sepete Ekle</button>
+        </div>
+        <div class="oyun">
+            <img src="pubg_mobile_uc.jpg" alt="PUBG Mobile UC">
+            <h3>PUBG Mobile UC</h3>
+            <p>Pubg Mobile 10UC - Fiyat: 0.67 AZN</p>
+            <p>Pubg Mobile 20UC - Fiyat: 1.20 AZN</p>
+            <p>Pubg Mobile 60UC - Fiyat: 1.88 AZN</p>
+            <p>Pubg Mobile 325UC - Fiyat: 8.00 AZN</p>
+            <p>Pubg Mobile 660UC - Fiyat: 16.98 AZN</p>
+            <p>Pubg Mobile 1800UC - Fiyat: 39.91 AZN</p>
+            <p>Pubg Mobile 3850UC - Fiyat: 80.22 AZN</p>
+            <p>Pubg Mobile 8100UC - Fiyat: 154.55 AZN</p>
+            <button>Sepete Ekle</button>
+        </div>
+        <div class="oyun">
+            <img src="brawl_stars_elmas.jpg" alt="Brawl Stars Elmas">
+            <h3>Brawl Stars Elmas</h3>
+            <p>Brawl Stars 33 Elmas - Fiyat: 3.36 AZN</p>
+            <p>Brawl Stars 88 Elmas - Fiyat: 8.15 AZN</p>
+            <p>Brawl Stars 187 Elmas - Fiyat: 16.33 AZN</p>
+            <p>Brawl Stars 396 Elmas - Fiyat: 31.63 AZN</p>
+            <p>Brawl Stars 1045 Elmas - Fiyat: 77.92 AZN</p>
+            <p>Brawl Stars 2200 Elmas - Fiyat: 154.45 AZN</p>
+            <button>Sepete Ekle</button>
+        </div>
+    </main>
+    <footer>
+        <p>Telif Hakkı © 2023 Oyun Satış Sitesi</p>
+    </footer>
+</body>
+</html>
